@@ -83,7 +83,7 @@ In our cohort, patients with HPV-positive status had better overall survival tha
 
 <Note: This model aimed to assess the association between HPV status and the instantaneous risk of mortality, with HPV status as the main variable of interest, even though the other covariates were not statistically significant.>
 * HNSCC associated with HPV appears to have a more favorable prognosis. In the available sample, patients with HPV-negative status had a 3.6-fold higher instantaneous risk of death compared with HPV-positive patients.
-This association should nevertheless be interpreted with caution given the small number of available observations and events.<<
+This association should nevertheless be interpreted with caution given the small number of available observations and events.
 
 ## Limitations
 * The statistical significance of the coefficients is affected by highly unbalanced sample sizes across groups, which increases uncertainty and widens confidence intervals.
