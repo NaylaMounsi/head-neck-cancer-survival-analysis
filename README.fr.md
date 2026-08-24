@@ -38,34 +38,74 @@ Taille échantillon :483 observations
 
 ## Principaux résultats descriptifs
 ### Genre et Age :
+
 La proportion de patients ayant présenté l'événement est plus élevée chez les femmes que chez les hommes (50,8 % contre 39,8 %). 
+
+<details>
+<summary> Analyse de l'âge et du genre</summary>
+
+![graph](images/Survival_time_by_age_group_and_gender.png)
+
 * Les décès sont plus observés chez les femmes aux âges avancés 63% contre 52% chez les hommes. (graphe âge et genre)
-* Durée de survie moyenne très comparable entre les hommes et les femmes sauf aux âges jeunes avec une durée moyenne plus élevée observé chez les hommes. (graphe survie)
-* Une tendance à une différence de survie selon le sexe est observée mais sans atteindre le seuil de significativité statistique. (graph courbe de survie)
-* 
+* Durée de survie moyenne très comparable entre les hommes et les femmes sauf aux âges jeunes avec une durée moyenne plus élevée observé chez les hommes.
+* Une tendance à une différence de survie selon le sexe est observée mais sans atteindre le seuil de significativité statistique.
+</details>
+
 ### Tabac :
+<details>
+<summary> Analyse du status tabagique </summary>
+
+![graph](images/Distribution_of_Deaths_by_Smoking_Status.png)
 * 75% des patients de l’échantillon ont déjà fumé, 33% sont des fumeurs courants.
 * les fumeurs courants représentent 37% des décès lié à un CE Tête et Cou
 * Bien que le test du log-rank ne mette pas en évidence de différence statistiquement significative entre les courbes de survie, le groupe des fumeurs courants présente un nombre de décès observés supérieur au nombre attendu sous l’hypothèse d’égalité des courbes.
+  
+</details>
 
 ### Consommation d’alcool :
-* Part des consommateurs et des non consommateurs d’alcool dans les décès très comparable (42% contre 47%) et non significativement différentes (test de proportion) (graph pie alcool)
+<details>
+<summary> Analyse de la consimmation d'alcool </summary>
+
+![graph](images/Deaths_by_alcohol_consumption.png)
+* Part des consommateurs et des non consommateurs d’alcool dans les décès très comparable (42% contre 47%) et non significativement différentes (test de proportion)
 * Une association entre le statut tabagique et la consommation d’alcool est observée : la proportion de consommateurs d’alcool est plus élevée chez les fumeurs courants que chez les non-fumeurs (81 % contre 51 %).
-### Stage clinique :
+  
+</details>
+
+### Stade clinique :
+<details>
+<summary> Analyse du stade clinique </summary>
+
+![graph](images/death_and_clinical_stage.png)
 * Les stades précoces sont concentrés aux âges jeunes mais les observations sont trop limitées pour permettre une estimation précise.
 * Décès aux stades avancés (stade IVA) est majoritaire entre 49 et 69 ans et correspond aux stades le plus représenté. Des décès à des stades plus précoces sont observés après 70 ans. (graph stade)
+  
+</details>
 
 ### HPV : 
-Dans notre cohorte, les patients ayant un statut HPV positif présentent une survie globale meilleure que les patients HPV négatif (graph survie)
+<details>
+<summary>  Survie selon le statut HPV </summary>
+
+ ![graph](images/kaplan_meier_curves_by_hpv_status.png) 
+* Dans notre cohorte, les patients ayant un statut HPV positif présentent une survie globale meilleure que les patients HPV négatif
+</details>
 
 ## Résultats de la modélisation
 ### Modèle de Cox global 
 * L’âge est sensiblement associé à la survie : Après ajustement sur les autres variables du modèle, chaque année supplémentaire de vie  est associé à une augmentation de 2,5%  du risque instantané de décès. 
 * Fumer couramment est associé à une augmentation du risque instantané de décès de 51% comparativement aux non-fumeurs.
-* Le test global des résidus de Schoenfeld ne met pas en évidence de violation significative de l’hypothèse des risques proportionnels (p = 0,425). (graph test shoenfeld)
+
+<details>
+<summary> Résultat du test de Schoenfeld </summary>
+
+![graph](test_schoenfeld.png)
+* Le test global des résidus de Schoenfeld ne met pas en évidence de violation significative de l’hypothèse des risques proportionnels (p = 0,425).
+  
+</details>
 
 ### Modèle de Cox 2 : Effet de l’association entre statut de l’HPV et la durée de survie
-<Nb : Modèle visant vérifier l'association entre le statut HPV et le risque instantané de mortalité où « HPV » est la variable d'intérêt principale, même si les autres covariables ne sont pas significatives.>
+
+<**Note:** Modèle visant vérifier l'association entre le statut HPV et le risque instantané de mortalité où « HPV » est la variable d'intérêt principale, même si les autres covariables ne sont pas significatives.>
 * Les CE Tête et cou associé à l’HPV apparaissent de meilleur pronostic : Dans l’échantillon disponible les patients présentant un statut HPV négatif ont un risque instantané de décès 3,6 fois plus élevé par rapport à celui des patients « HPV positifs ».
 Cette association doit toutefois être interprétée avec prudence compte tenu du faible nombre d’observations et d’événements disponibles.
 ## Limites : 
