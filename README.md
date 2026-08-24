@@ -1,4 +1,4 @@
-# Analysis of Factors Associated with Overall Survival in Patients with Head and Neck Squamous Cell Carcinoma
+# Analysis of factors associated with overall survival in patients with head and neck squamous cell carcinoma
 ## *Analyse des facteurs associés à la survie globale des patients atteints d'un carcinome épidermoïde de la tête et du cou*
 
 [🇬🇧 English](#english) · [🇫🇷 Français](README.fr.md)
@@ -11,13 +11,13 @@ Head and neck squamous cell carcinoma (HNSCC) is a type of cancer that develops 
 
 HNSCC is characterized by heterogeneous prognosis related to individual, clinical, and tumor characteristics. This variability in prognosis highlights the importance of identifying factors associated with patients' overall survival through survival analysis.
 
-## Data Source
+## Data source
 
 TCGA (The Cancer Genome Atlas) – HNSC (Head and Neck Squamous Cell Carcinoma).
 
 ## Methodology
 
-### Data Preparation
+### Data preparation
 
  #### The initial data preparation and harmonization were performed using MySQL
 
@@ -28,7 +28,7 @@ TCGA (The Cancer Genome Atlas) – HNSC (Head and Neck Squamous Cell Carcinoma).
 * Construction of a cohort with one observation per patient, retaining the observation with the longest follow-up duration.
 * Data preparation to ensure independence of observations for survival analysis.
   
-#### Statistical Analysis in R
+#### Statistical analysis in R
   
 * Additional data cleaning and management of missing and outlier values.
 * Exclusion of categories that did not provide sufficient information for the survival model.
@@ -40,7 +40,7 @@ TCGA (The Cancer Genome Atlas) – HNSC (Head and Neck Squamous Cell Carcinoma).
 * Additional analysis of the association between HPV status and survival (sample of 107 observations).
 * Assessment of the proportional hazards assumption using Schoenfeld residuals, with investigation of variables that could compromise this assumption.
   
-## Sample Description
+## Sample description
 
 Sample size: 483 observations.
 
@@ -48,11 +48,11 @@ Sample size: 483 observations.
 * Imbalanced sample: 126 women versus 359 men.
 * Median follow-up time was 656 days, with a maximum follow-up of 6,417 days (approximately 17 years).
 
-## Main Descriptive Results
-### Sex and Age
+## Main descriptive results
+### Gender and age
 
   <details>
-<summary>Age and gender results </summary>
+<summary> Results by age and gender  </summary>
    
 ![age and gender result](images/Survival_time_by_age_group_and_gender.png)
 
@@ -70,9 +70,9 @@ Sample size: 483 observations.
 * A trend toward a difference in survival according to sex was observed, but it did not reach statistical significance.
   </details>
   
-### Smoking
+### Smoking status
 <details>
-<summary> Smoking status results </summary>
+<summary> Results by smoking status </summary>
  
  ![deaths by smoking status](images/Distribution_of_Deaths_by_Smoking_Status.png)
 * 75% of patients in the sample had a history of smoking, and 33% were current smokers.
@@ -82,9 +82,9 @@ Sample size: 483 observations.
   
   </details>
   
-### Alcohol Consumption
+### Alcohol consumption
   <details>
-<summary> Alcohol consumption results </summary>
+<summary> Results by alcohol consumption </summary>
    
 ![graph](images/Deaths_by_alcohol_consumption.png)   
 * The proportion of alcohol consumers and non-consumers among patients who died was broadly comparable (42% vs. 47%) and not statistically significantly different (proportion test).
@@ -92,7 +92,7 @@ Sample size: 483 observations.
   
   </details>
 
-### Clinical Stage
+### Clinical stage
 <details>
 <summary> Clinical stage results </summary>
  
@@ -101,7 +101,7 @@ Sample size: 483 observations.
 * Deaths at advanced stages, particularly stage IVA, were predominant between the ages of 49 and 69 and corresponded to the most represented stage. Deaths at earlier stages were also observed among patients over 70 years of age.
 </details>
 
-### HPV Status
+### HPV status
 
 <details>
 <summary> Survival curve by HPV status</summary>
@@ -111,8 +111,8 @@ Sample size: 483 observations.
   
 </details>
 
-## Modeling Results
-### Overall Cox Model
+## Modeling results
+### Overall Cox model
 * Age was significantly associated with survival: after adjustment for the other variables in the model, each additional year of age was associated with a 2.5% increase in the instantaneous risk of death.
 * Current smoking was associated with a 51% increase in the instantaneous risk of death compared with non-smokers.
 <details>
