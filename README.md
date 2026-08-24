@@ -62,8 +62,10 @@ Sample size: 483 observations.
 </details>
 
   <details>
-<summary> Survival's curve difference </summary>
+<summary> Survival curve by gender </summary>
+   
  ![Kaplan-Meier survival curves by gender](images/kaplan_meier_curves_by_gender.png)  
+ 
 * Mean survival time was broadly comparable between men and women, except at younger ages, where a higher mean survival time was observed among men.
 * A trend toward a difference in survival according to sex was observed, but it did not reach statistical significance.
   </details>
