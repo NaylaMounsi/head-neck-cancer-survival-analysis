@@ -94,7 +94,7 @@ Sample size: 483 observations.
 <details>
 <summary> Clinical stage results </summary>
  
-![graph](images/death_and_clincial_stage.png)
+![graph](images/death_and_clinical_stage.png)
 * Early-stage disease was concentrated among younger patients, but the number of observations was too limited to allow precise estimation.
 * Deaths at advanced stages, particularly stage IVA, were predominant between the ages of 49 and 69 and corresponded to the most represented stage. Deaths at earlier stages were also observed among patients over 70 years of age.
 </details>
