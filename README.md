@@ -1,7 +1,7 @@
 # Analysis of Factors Associated with Overall Survival in Patients with Head and Neck Squamous Cell Carcinoma
 ## *Analyse des facteurs associés à la survie globale des patients atteints d'un carcinome épidermoïde de la tête et du cou*
 
-[🇬🇧 English](#english) · [🇫🇷 Français](#Francais)
+[🇬🇧 English](#english) · [🇫🇷 Français](README.fr.md)
 
 # English
 
