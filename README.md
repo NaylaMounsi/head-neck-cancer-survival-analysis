@@ -53,14 +53,14 @@ Sample size: 483 observations.
 
   <details>
 <summary>Age and gender results </summary>
-![age and gender result](images/Survival time by age group and gender.png)
+![age and gender result](images/Survival_time_by_age_group_and_gender.png)
   * The proportion of patients who experienced the event was higher among women than among men (50.8% vs. 39.8%).
   * Deaths were more frequently observed among women at older ages (63% vs. 52% among men).
 </details>
 
   <details>
 <summary> Survival's curve difference </summary>
- ![Kaplan-Meier survival curves by gender](images/kaplan meier curves by gender.png)  
+ ![Kaplan-Meier survival curves by gender](images/kaplan_meier_curves_by_gender.png)  
 * Mean survival time was broadly comparable between men and women, except at younger ages, where a higher mean survival time was observed among men.
 * A trend toward a difference in survival according to sex was observed, but it did not reach statistical significance. (Kaplan–Meier survival curve)
   </details>
@@ -72,16 +72,16 @@ Sample size: 483 observations.
   
 ### Alcohol Consumption
   <details>
-<summary> Alcohol consumption's results </summary>
-![graph](images/Deaths by alcohol consumption selon la consommation d'alcool.png)   
+<summary> Alcohol consumption results </summary>
+![graph](images/Deaths_by_alcohol_consumption.png)   
 * The proportion of alcohol consumers and non-consumers among patients who died was broadly comparable (42% vs. 47%) and not statistically significantly different (proportion test).
 * An association between smoking status and alcohol consumption was observed: the proportion of alcohol consumers was higher among current smokers than among non-smokers (81% vs. 51%).
   </details>
 
 ### Clinical Stage
 <details>
-<summary> Clinical stage's results </summary>
- ![graph](images/death and clincial stage.png)
+<summary> Clinical stage results </summary>
+ ![graph](images/death_and_clincial_stage.png)
 * Early-stage disease was concentrated among younger patients, but the number of observations was too limited to allow precise estimation.
 * Deaths at advanced stages, particularly stage IVA, were predominant between the ages of 49 and 69 and corresponded to the most represented stage. Deaths at earlier stages were also observed among patients over 70 years of age.
 </details>
@@ -90,7 +90,7 @@ Sample size: 483 observations.
 
 <details>
 <summary> Survival curve by HPV status</summary>
-  ![graph](images/kaplan meier curves by hpv status.png)
+  ![graph](images/kaplan_meier_curves_by_hpv_status.png)
 * In our cohort, patients with HPV-positive status had better overall survival than HPV-negative patients.
 </details>
 
@@ -100,7 +100,7 @@ Sample size: 483 observations.
 * Current smoking was associated with a 51% increase in the instantaneous risk of death compared with non-smokers.
 <details>
 <summary> Schoenfield test results </summary>
-   ![graph](images/test de shoenfeld.png)
+   ![graph](images/test_shoenfeld.png)
 * The global test based on Schoenfeld residuals did not indicate a statistically significant violation of the proportional hazards assumption (p = 0.425). 
 </details>
 
