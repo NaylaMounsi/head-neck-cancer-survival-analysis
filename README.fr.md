@@ -98,7 +98,7 @@ La proportion de patients ayant présenté l'événement est plus élevée chez 
 <details>
 <summary> Résultat du test de Schoenfeld </summary>
 
-![graph](test_schoenfeld.png)
+![graph](images/test_schoenfeld.png)
 * Le test global des résidus de Schoenfeld ne met pas en évidence de violation significative de l’hypothèse des risques proportionnels (p = 0,425).
   
 </details>
