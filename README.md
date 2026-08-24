@@ -53,35 +53,48 @@ Sample size: 483 observations.
 
   <details>
 <summary>Age and gender results </summary>
+   
 ![age and gender result](images/Survival_time_by_age_group_and_gender.png)
+
   * The proportion of patients who experienced the event was higher among women than among men (50.8% vs. 39.8%).
   * Deaths were more frequently observed among women at older ages (63% vs. 52% among men).
+    
 </details>
 
   <details>
 <summary> Survival's curve difference </summary>
  ![Kaplan-Meier survival curves by gender](images/kaplan_meier_curves_by_gender.png)  
 * Mean survival time was broadly comparable between men and women, except at younger ages, where a higher mean survival time was observed among men.
-* A trend toward a difference in survival according to sex was observed, but it did not reach statistical significance. (Kaplan–Meier survival curve)
+* A trend toward a difference in survival according to sex was observed, but it did not reach statistical significance.
   </details>
   
 ### Smoking
+<details>
+<summary> Smoking status results </summary>
+ 
+ ![deaths by smoking status](images/Distribution_of_Deaths_by_Smoking_Status.png)
 * 75% of patients in the sample had a history of smoking, and 33% were current smokers.
 * Current smokers accounted for 37% of deaths among patients with HNSCC.
+ 
 * Although the log-rank test did not identify a statistically significant difference between survival curves, the current smoker group had a higher number of observed deaths than expected under the assumption of equal survival curves.
+  
+  </details>
   
 ### Alcohol Consumption
   <details>
 <summary> Alcohol consumption results </summary>
+   
 ![graph](images/Deaths_by_alcohol_consumption.png)   
 * The proportion of alcohol consumers and non-consumers among patients who died was broadly comparable (42% vs. 47%) and not statistically significantly different (proportion test).
 * An association between smoking status and alcohol consumption was observed: the proportion of alcohol consumers was higher among current smokers than among non-smokers (81% vs. 51%).
+  
   </details>
 
 ### Clinical Stage
 <details>
 <summary> Clinical stage results </summary>
- ![graph](images/death_and_clincial_stage.png)
+ 
+![graph](images/death_and_clincial_stage.png)
 * Early-stage disease was concentrated among younger patients, but the number of observations was too limited to allow precise estimation.
 * Deaths at advanced stages, particularly stage IVA, were predominant between the ages of 49 and 69 and corresponded to the most represented stage. Deaths at earlier stages were also observed among patients over 70 years of age.
 </details>
@@ -90,8 +103,10 @@ Sample size: 483 observations.
 
 <details>
 <summary> Survival curve by HPV status</summary>
-  ![graph](images/kaplan_meier_curves_by_hpv_status.png)
+ 
+![graph](images/kaplan_meier_curves_by_hpv_status.png)
 * In our cohort, patients with HPV-positive status had better overall survival than HPV-negative patients.
+  
 </details>
 
 ## Modeling Results
@@ -100,19 +115,21 @@ Sample size: 483 observations.
 * Current smoking was associated with a 51% increase in the instantaneous risk of death compared with non-smokers.
 <details>
 <summary> Schoenfield test results </summary>
+ 
    ![graph](images/test_schoenfeld.png)
-* The global test based on Schoenfeld residuals did not indicate a statistically significant violation of the proportional hazards assumption (p = 0.425). 
+* The global test based on Schoenfeld residuals did not indicate a statistically significant violation of the proportional hazards assumption (p = 0.425).
+  
 </details>
 
 ### Cox Model 2: Association Between HPV Status and Survival Time
 
-<Note: This model aimed to assess the association between HPV status and the instantaneous risk of mortality, with HPV status as the main variable of interest, even though the other covariates were not statistically significant.>
+< **Note:** This model aimed to assess the association between HPV status and the instantaneous risk of mortality, with HPV status as the main variable of interest, even though the other covariates were not statistically significant.>
 
 * HNSCC associated with HPV appears to have a more favorable prognosis. In the available sample, patients with HPV-negative status had a 3.6-fold higher instantaneous risk of death compared with HPV-positive patients.
 This association should nevertheless be interpreted with caution given the small number of available observations and events.
 
 ## Limitations
 * The statistical significance of the coefficients is affected by highly unbalanced sample sizes across groups, which increases uncertainty and widens confidence intervals.
-* Small sample sizes in some clinical stage categories, particularly stages I and IVB–IVC, result in substantial uncertainty around the estimates. Therefore, the absence of statistical significance observed for some * categories does not allow us to conclude that there is no association with survival.
+* Small sample sizes in some clinical stage categories, particularly stages I and IVB–IVC, result in substantial uncertainty around the estimates. Therefore, the absence of statistical significance observed for some categories does not allow us to conclude that there is no association with survival.
 The analysis of HPV status was based on a limited subsample of 107 patients and 27 events, resulting in substantial uncertainty around the estimates and limiting the statistical power of this additional analysis.
 
