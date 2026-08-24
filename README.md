@@ -94,7 +94,7 @@ Sample size: 483 observations.
 
 ### Clinical stage
 <details>
-<summary> Clinical stage results </summary>
+<summary> Results by clinical stage </summary>
  
 ![graph](images/death_and_clinical_stage.png)
 * Early-stage disease was concentrated among younger patients, but the number of observations was too limited to allow precise estimation.
