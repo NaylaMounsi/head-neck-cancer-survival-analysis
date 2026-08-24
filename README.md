@@ -100,7 +100,7 @@ Sample size: 483 observations.
 * Current smoking was associated with a 51% increase in the instantaneous risk of death compared with non-smokers.
 <details>
 <summary> Schoenfield test results </summary>
-   ![graph](images/test_shoenfeld.png)
+   ![graph](images/test_schoenfeld.png)
 * The global test based on Schoenfeld residuals did not indicate a statistically significant violation of the proportional hazards assumption (p = 0.425). 
 </details>
 
