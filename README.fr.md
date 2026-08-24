@@ -105,7 +105,7 @@ La proportion de patients ayant présenté l'événement est plus élevée chez 
 
 ### Modèle de Cox 2 : Effet de l’association entre statut de l’HPV et la durée de survie
 
->**Note:** Modèle visant vérifier l'association entre le statut HPV et le risque instantané de mortalité où « HPV » est la variable d'intérêt principale, même si les autres covariables ne sont pas significatives.
+>**Note:** Ce modèle vise à vérifier l'association entre le statut HPV et le risque instantané de mortalité où « HPV » est la variable d'intérêt principale, même si les autres covariables ne sont pas significatives.
 * Les CE Tête et cou associé à l’HPV apparaissent de meilleur pronostic : Dans l’échantillon disponible les patients présentant un statut HPV négatif ont un risque instantané de décès 3,6 fois plus élevé par rapport à celui des patients « HPV positifs ».
 Cette association doit toutefois être interprétée avec prudence compte tenu du faible nombre d’observations et d’événements disponibles.
 ## Limites : 
