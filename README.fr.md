@@ -11,7 +11,7 @@ TCGA (The Cancer Genome Atlas)-HNSC (Head and Neck Squamous Cell Carcinoma).
 
 ### Méthodologie
 Préparation des données 
-**La préparation et l’homogénéisation des données initiales a été réalisée sur MySQL**  
+#### La préparation et l’homogénéisation des données initiales a été réalisée sur MySQL
 * Préparation et homogénéisation des différentes tables
 * Sélection des variables d’intérêt en tenant compte du nombre d’observations disponibles et du risque de biais de sélection.
 * Utilisation du stade clinique plutôt que le stade pathologique afin de limiter l’exclusion des patients n’ayant pas fait l’objet d’une prise en charge chirurgicale ( ou non opérables).
@@ -19,7 +19,7 @@ Préparation des données
 * Constitution d’une cohorte comportant une observation par patient en retenant l’observation qui  conserve la durée de suivi la plus longue
 * Préparation des données afin d’assurer l’indépendance des observations pour l’analyse de survie.
 
-**Analyse statistique sous R**
+#### Analyse statistique sous R
 * Nettoyage des données complémentaire et traitement des valeurs manquantes et aberrantes. 
 * Exclusion des modalités qui n’apportent pas d’information dans le modèle de survie.
 * Regroupement des catégories de stade clinique afin de pallier le manque d’effectif.
