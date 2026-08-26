@@ -123,7 +123,7 @@ Sample size: 483 observations.
   
 </details>
 
-### Cox Model 2: Association Between HPV Status and Survival Time
+### Cox model 2: Association between HPV status and survival time
 
 >**Note:** This model aimed to assess the association between HPV status and the instantaneous risk of mortality, with HPV status as the main variable of interest, even though the other covariates were not statistically significant.
 
