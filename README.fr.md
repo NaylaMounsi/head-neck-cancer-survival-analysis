@@ -64,7 +64,7 @@ La proportion de patients ayant présenté l'événement est plus élevée chez 
 
 ### Consommation d’alcool :
 <details>
-<summary> Analyse de la consimmation d'alcool </summary>
+<summary> Analyse de la consommation d'alcool </summary>
 
 ![graph](images/Deaths_by_alcohol_consumption.png)
 * Part des consommateurs et des non consommateurs d’alcool dans les décès très comparable (42% contre 47%) et non significativement différentes (test de proportion)
