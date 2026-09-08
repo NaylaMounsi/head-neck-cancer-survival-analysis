@@ -133,5 +133,5 @@ This association should nevertheless be interpreted with caution given the small
 ## Limitations
 * The statistical significance of the coefficients is affected by highly unbalanced sample sizes across groups, which increases uncertainty and widens confidence intervals.
 * Small sample sizes in some clinical stage categories, particularly stages I and IVB–IVC, result in substantial uncertainty around the estimates. Therefore, the absence of statistical significance observed for some categories does not allow us to conclude that there is no association with survival.
-The analysis of HPV status was based on a limited subsample of 107 patients and 27 events, resulting in substantial uncertainty around the estimates and limiting the statistical power of this additional analysis.
+* The analysis of HPV status was based on a limited subsample of 107 patients and 27 events, resulting in substantial uncertainty around the estimates and limiting the statistical power of this additional analysis.
 
