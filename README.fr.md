@@ -109,6 +109,6 @@ La proportion de patients ayant présenté l'événement est plus élevée chez 
 * Les CE Tête et cou associé à l’HPV apparaissent de meilleur pronostic : Dans l’échantillon disponible les patients présentant un statut HPV négatif ont un risque instantané de décès 3,6 fois plus élevé par rapport à celui des patients « HPV positifs ».
 Cette association doit toutefois être interprétée avec prudence compte tenu du faible nombre d’observations et d’événements disponibles.
 ## Limites : 
-* Significativité des coefficient compromis par des effectif très hétérogènes qui augmentent l’incertitude et l’étendue des intervalles de confiance 
+* La significativité des coefficients est compromis par des effectifs très hétérogènes qui augmentent l’incertitude et l’étendue des intervalles de confiance 
 * Les faibles effectifs dans certaines catégories de stade clinique, notamment les stades I et IVB–IVC, entraînent une forte incertitude autour des estimations. L’absence de significativité statistique observée pour ces catégories ne permet donc pas de conclure une absence d’association avec la survie.
-* L’analyse du statut HPV repose sur un sous-échantillon limité à 107 patients et 27 événements, ce qui entraîne une incertitude et limite la puissance statistique de cette analyse complémentaire.
+* L’analyse du statut HPV repose sur un sous-échantillon limité à 107 patients et 27 événements, ce qui entraîne de l'incertitude et limite la puissance statistique de cette analyse complémentaire.
