@@ -57,7 +57,7 @@ La proportion de patients ayant présenté l'événement est plus élevée chez 
 
 ![graph](images/Distribution_of_Deaths_by_Smoking_Status.png)
 * 75% des patients de l’échantillon ont déjà fumé, 33% sont des fumeurs courants.
-* les fumeurs courants représentent 37% des décès lié à un CE Tête et Cou
+* les fumeurs courants représentent 37% des décès liés à un CE Tête et Cou
 * Bien que le test du log-rank ne mette pas en évidence de différence statistiquement significative entre les courbes de survie, le groupe des fumeurs courants présente un nombre de décès observés supérieur au nombre attendu sous l’hypothèse d’égalité des courbes.
   
 </details>
