@@ -36,7 +36,7 @@ TCGA (The Cancer Genome Atlas) – HNSC (Head and Neck Squamous Cell Carcinoma).
 * Estimation of survival probabilities using the Kaplan–Meier method.
 * Comparison of survival curves using the log-rank test.
 * Estimation of a multivariable Cox proportional hazards model to identify factors associated with overall survival.
-* Exploration of an interaction effect between smoking status and alcohol consumption, with model comparison using a  test F.
+* Exploration of an interaction effect between smoking status and alcohol consumption, with model comparison using a Likelihood Ratio Test.
 * Additional analysis of the association between HPV status and survival (sample of 107 observations).
 * Assessment of the proportional hazards assumption using Schoenfeld residuals, with investigation of variables that could compromise this assumption.
   
