@@ -25,7 +25,7 @@ TCGA (The Cancer Genome Atlas)-HNSC (Head and Neck Squamous Cell Carcinoma).
 * Estimation des probabilités de survie par la méthode de Kaplan-Meier
 * Comparaison des courbes de survie par test du log-rank 
 * Estimation d’un modèle de Cox multivarié afin d’identifier les facteurs associés à la survie globale
-* Exploration d’un effet d’interaction entre le statut tabagique et la consommation d’alcool, avec comparaison des modèles par test du rapport de vraisemblance.
+* Exploration d’un effet d’interaction entre le statut tabagique et la consommation d’alcool, avec comparaison des modèles par la réalisation d'un test F
 * Analyse complémentaire de l’association entre le statut HPV et la survie (échantillon de 107 observations).
 * Vérification de l’hypothèse des risques proportionnels à l’aide des résidus de Schoenfeld avec investigation des variables pouvant compromettre cette hypothèse.
 
